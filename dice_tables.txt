@@ -1,0 +1,533 @@
+Style Name
+01-10 The (Type) of the (Noun 0).
+11-20 The (General Adjective) (Type) of the (Noun 0).
+21-30 (Adjective Chooser) (Noun 0) (Type)
+31-40 The (Noun 0)(Type).
+41-50 (Noun 0) (Type)
+51-60 The (Adjective Chooser) (Noun 0) (Type).
+61-70 (Noun 1)(Noun 2) (Type)
+71-80 (Adjective Chooser)(Noun 1)(Noun 2) (Type)
+81-90 The (General Adjective) (Type) of the (Adjective Chooser) (noun0).
+91-00 The (Type) of the (Adjective Chooser) (Noun 0).
+
+Adjective Chooser
+01-80 General Adjective
+81-90 Color
+91-00 Number
+
+Noun 0 Chooser
+01-30 Animal
+31-40 Geographic Feature
+41-50 Mineral
+51-60 Vegetable
+61-70 Weather
+71-80 Celestial Object
+81-90 Body part
+91-00 Weapon
+
+Noun 1Chooser
+01-50 Animal
+51-80 Mineral
+81-00 Vegetable
+
+Noun 2 Chooser
+01-20 Geographical Feature
+21-40 Weather
+41-60 Celestial Object
+61-80 Body Part
+81-00 Weapon
+
+Type
+01-10 Path
+11-20 Form
+21-35 School
+36-50 Art
+51-65 Way
+66-80 Style
+81-90 Technique
+91-00 Method
+
+General Adjective List
+01 Anagogic
+02 Ancient
+03 Arcane
+04 Battling
+05 Beautiful
+06 Billowing
+07 Blazing
+08 Blessed
+09 Bounding
+10 Bright
+11 Brilliant
+12 Cabalistic
+13 Celestial
+14 Complicated
+15 Cruel
+16 Dark
+17 Darkling
+18 Deadly
+19 Defensive
+20 Destructive
+21 Divine
+22 Drunken
+23 Dueling
+24 Dull
+25 Dusky
+26 Eastern
+27 Enlightened
+28 Esoteric
+29 Eternal
+30 Extraordinary
+31 Extreme
+32 Feared
+33 Fierce
+34 Fighting
+35 Flying
+36 Furious
+37 Gloomy
+38 Glowing
+39 Grand
+40 Great
+41 Guarding
+42 Harmonious
+43 Hateful
+44 Hidden
+45 Holy
+46 Honorable
+47 Hunting
+48 Illuminated
+49 Imperial
+50 Intricate
+51 Jumping
+52 Knightly
+53 Leaping
+54 Legendary
+55 Light
+56 Lighted
+57 Lightless
+58 Lone
+59 Luminous
+60 Masterful
+61 Murky
+62 Mysterious
+63 Mystic
+64 Mystical
+65 Noble
+66 Northern
+67 Obscure
+68 Occult 
+69 Offensive
+70 Paranormal
+71 Poor
+72 Protecting
+73 Quarreling
+74 Quick
+75 Radiant
+76 Raging
+77 Respected
+78 Running
+79 Shadowy
+80 Shady
+81 Shielding
+82 Shining
+83 Single
+84 Soaring
+85 Southern
+86 Spinning
+87 Spiraling
+88 Springing
+89 Striving
+90 Strong
+91 Supernatural
+92 Trampling
+93 Uncanny
+94 Unearthly
+95 Unknowable
+96 Unnatural
+97 Virtuous
+98 Warring
+99 Western
+00 Whirling
+
+Color List
+01-03 Light Orange
+06-09 Light Yellow
+10-12 Light Brown
+13-15 Light Red
+16-18 Light Grey
+19-21 Light Green
+22-24 Light Purple
+25-27 Light Blue
+28-29 Tan
+30-31 Pink
+32-35 Orange
+36-39 White
+40-43 Yellow
+44-47 Red
+48-51 Purple
+52-55 Green
+53-59 Brown
+60-63 Blue
+64-67 Black
+68-70 Grey
+71-72 Golden
+73-74 Silver
+75-79 Dark Orange
+80-82 Dark Blue
+83-85 Dark Purple
+86-88 Dark Grey
+89-91 Dark Green
+92-94 Dark Brown
+95-97 Dark Red
+98-00 Dark Yellow
+
+Number List
+01-05 One
+06-10 Two
+11-15 Three
+16-20 Four
+21-25 Five
+26-30 Six
+31-35 Seven
+36-40 Eight
+41-45 Nine
+46-50 Ten
+51-55 Twelve
+56-60 Eighteen
+61-65 Twenty Four
+66-70 Sixty
+71-75 Sixty Nine
+76-80 One Hundred
+81-85 One Hundred and Eight
+86-90 One Hundred and Twenty
+91-95 One Thousand
+96-00 Ten Thousand
+
+Animal List
+
+01 Insects
+	01-05 Ant
+	06-10 Bee
+	11-15 Beetle
+	16-20 Butterfly
+	21-25 Cockroach
+	26-30 Gnat
+	31-35 Grasshopper/Locust
+	36-40 Fly
+	41-45 Hornet
+	46-50 Mantis
+	51-55 Mosquito
+	56-60 Scorpion
+	61-65 Snail
+	66-70 Spider
+	71-75 Wasp
+	76-80 Worm
+	81-85 Dragonfly
+	86-90 Centipede
+	91-95 Leech
+	96-00 Caterpillar
+02 Alligator/Crocodile
+03 Ape
+04 Armadillo
+05 Baboon
+06 Badger
+07 Bat
+08 Bear
+09 Beaver
+10 Blue-Jay
+11 Bobcat
+12 Buffalo
+13 Buzzard
+14 Carp
+15 Cat
+16 Cheetah
+17 Chimpanzee
+18 Cobra
+19 Condor
+20 Cow/Bull
+21 Coyote/Jackal
+22 Crab
+23 Crane
+24 Crawfish/Crayfish
+25 Deer
+26 Dog
+27 Dolphin/Porpoise
+28 Dove
+29 Duck
+30 Eagle
+31 Eel
+32 Egret
+33 Elephant
+34 Falcon
+35 Ferret
+36 Fox
+37 Frog
+38 Giraffe
+39 Goat
+40 Hawk
+41 Hedgehog
+42 Hippopotamus
+43 Horse
+44 Hummingbird
+45 Jaguar
+46 Kangaroo
+47 Koala
+48 Leopard
+49 Lion
+50 Lizard
+51 Lobster
+52 Manta
+53 Mole
+54 Monkey
+55 Moose
+56 Mouse
+57 Octopus
+58 Opossum
+59 Otter
+60 Owl
+61 Ox
+62 Panther
+63 Peacock
+64 Pheasant
+65 Pig/Wild Boar/Hog/Warthog
+66 Pigeon
+67 Porcupine
+68 Puma/Mountain Lion
+69 Python
+70 Quail
+71 Rabbit/Bunny/Hare
+72 Racoon
+73 Rat
+74 Rattlesnake
+75 Raven/Crow/Rook/Corbie
+76 Rhinoceros
+77 Rooster/Chicken
+78 Salamander
+79 Seagull
+80 Seal
+81 Shark
+82 Sheep
+83 Snake/Serpent
+84 Sparrow
+85 Squid
+86 Squirrel
+87 Stingray
+88 Swallow
+89 Tiger
+90 Toad
+91 Tortoise/Turtle
+92 Turkey
+93 Vulture
+94 Weasel
+95 Whale
+96 Wild Goose
+97 Wolf
+98 Wolverine
+99 Zebra
+00 Mythological Creatures
+	01-25 Roc
+	26-50 Dragon
+	51-75 Phoenix
+	76-00 Unicorn/Ki-lin/Qi Lin/Kirin
+
+Mineral List
+01-05 Steel
+06-10 Gold
+11-15 Silver
+16-20 Mercury
+21-25 Copper
+26-30 Brass
+31-35 Platinum
+36-40 Palladium
+41-45 Marble
+46-50 Granite
+51-55 Obsidian
+56-60 Diamond
+61-65 Ruby
+66-70 Emerald
+71-75 Pearl
+76-80 Sapphire
+81-85 Opal
+86-90 Jade
+91-95 Lead
+96-00 Sulphur
+
+Vegetable List
+01-02 Apple
+03-04 Apricot
+05-06 Ash
+07-08 Bamboo
+09-10 Banana
+11-12 Barley
+13-14 Bean
+15-16 Beet
+17-18 Berry
+19-20 Birch
+21-22 Cabbage
+23-24 Carrot
+25-26 Cedar
+27-28 Cherry
+29-30 Chestnut
+31-32 Chrysanthemum
+33-34 Date
+35-36 Flower
+37-38 Fruit
+39-40 Garlic
+41-42 Grass
+43-44 Hemp
+45-46 Holly
+47-48 Ivy
+49-50 Leaf
+51-52 Maple
+53-54 Mushroom
+55-56 Nightshade
+57-58 Nut
+59-60 Oak
+61-62 Onion
+63-64 Orange
+65-66 Palm Tree
+67-68 Peach
+69-70 Pear
+71-72 Pine
+73-74 Plum
+75-76 Poplar
+77-78 Potato
+79-80 Pumpkin
+81-82 Radish
+83-84 Rice
+85-86 Sugar
+87-88 Turnip
+89-90 Vegetable
+91-92 Walnut
+93-94 Watermelon
+95-96 Wheat
+97-98 Willow
+99-00Yew
+
+Geographical Features List
+01-02 Atoll
+03-04 Barren
+05-06 Bay
+07-08 Beach
+09-10 Bog
+11-12 Canyon
+13-14 Cave/Cavern
+15-16 Cliff
+17-18 Crag
+19-20 Crater
+21-22 Desert
+23-24 Dune
+25-26 Field
+27-28 Ford
+29-30 Forest, rain
+31-32 Forest
+33-34 Garden
+35-36 Glacier
+37-38 Hill
+39-40 Hot Spring
+41-42 Ice field
+43-44 Island
+45-46 Jungle
+47-48 Lagoon
+49-50 Lake
+51-52 Marsh
+53-54 Moor
+55-56 Mountain
+57-58 Oasis
+59-60 Ocean
+61-62 Orchard
+63-64 Pass
+65-66 Path
+67-68 Peak
+69-70 Plain
+71-72 Plateau
+73-74 Reef
+75-76 River
+77-78 Savanna
+79-80 Scrub
+81-82 Sea
+83-84 Steppe
+85-86 Stream
+87-88 Swamp
+89-90 Tundra
+91-92 Vale
+93-94 Valley
+95-96 Volcano
+97-98 Waterfall
+99-00 Woods
+
+Weather List
+01-05 Breeze
+06-10 Chill/Frost
+11-15 Drought
+16-20 Dust (storm)
+21-25 Fire/Flame
+26-30 Fog
+31-35 Hail
+36-40 Hurricane
+41-45 Lightning
+46-50Rain
+51-55 Sleet
+56-60 Snow
+61-65 Storm
+66-70 Thunder
+71-75 Tornado
+76-80 Tsunami/Tidal Wave
+81-85 Typhoon
+86-90 Wave
+91-95 Whirlwind
+96-00 Wind
+Celestial Objects List
+01-10 Comet
+11-20 Constellation
+21-30 Earth
+31-40 Heavens
+41-50 Meteor
+51-60 Moon
+61-70 Stars
+71-80 Planets
+81-90 Sun
+91-00 Zodiac
+Body Part List
+01-05 Arm
+06-10 Back
+11-15 Body
+16-20 Ear
+21-25 Elbow
+26-30 Eye
+31-35 Face
+36-40 Fist
+41-45 Foot
+46-50 Hand
+51-55 Head
+56-60 Knee
+61-65 Leg
+66-70 Mouth
+71-75 Neck
+76-80 Nose
+81-85 Shoulder
+86-90 Stomach
+91-95 Thigh
+96-00 Torso
+
+Weapon List
+01-05 Axe
+06-10 Bow
+11-15 Chain
+16-20 Club
+21-25 Crossbow
+26-30 Dagger
+31-35 Dart
+36-40 Flail
+41-45 Hammer
+46-50 Knife
+51-55 Lance
+56-60 Lasso/Snare/Rope
+61-65 Mace
+66-70 Pick
+71-75 Scythe
+76-80 Sickle
+81-85 Spear
+86-90 Staff
+91-95 Sword
+96-00 Whip

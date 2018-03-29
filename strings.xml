@@ -1,0 +1,564 @@
+<style_strings>
+<style min="01" max="10">The {{type_chooser}} of the {{noun_0}}.</style>
+<style min="11" max="20">The {{general_adjective}} {{type}} of the {{noun_0}}.</style>
+<style min="21" max="30">{{adjective_chooser}} {{noun_0}} {{type}}</style>
+<style min="31" max="40">The {{noun_0}}{{type}}.</style>
+<style min="41" max="50">{{noun_0}} {{type}}</style>
+<style min="51" max="60">The {{adjective_chooser}} {{noun_0}} {{type}}.</style>
+<style min="61" max="70">{{noun_1}}{{noun_2}} {{type}}</style>
+<style min="71" max="80">{{adjective_chooser}}{{noun_1}}{{noun_2}} {{type}}</style>
+<style min="81" max="90">The {{general_adjective}} {{type}} of the {{adjective_chooser}} {{noun_0}}.</style>
+<style min="91" max="100">The {{type}} of the {{adjective_chooser}} {{noun_0}}.</style>
+</style_strings>
+
+<adjective_chooser>
+<adjective_choice min="01" max="80">General Adjective</adjective_choice>
+<adjective_choice min="81" max="90">Color</adjective_choice>
+<adjective_choice min="91" max="100">Number</adjective_choice>
+</adjective_chooser>
+
+<noun_0_chooser>
+<noun_type min="01" max="30">Animal</noun_type>
+<noun_type min="31" max="40">Geographic Feature</noun_type>
+<noun_type min="41" max="50">Mineral</noun_type>
+<noun_type min="51" max="60">Vegetable</noun_type>
+<noun_type min="61" max="70">Weather</noun_type>
+<noun_type min="71" max="80">Celestial Object</noun_type>
+<noun_type min="81" max="90">Body Part</noun_type>
+<noun_type min="91" max="100">Weapon</noun_type>
+</noun_0_chooser>
+
+<noun_1_chooser>
+<noun_type min="01" max="50">Animal</noun_type>
+<noun_type min="51" max="80">Mineral</noun_type>
+<noun_type min="81" max="100">Vegetable</noun_type>
+</noun_1_chooser>
+
+<noun_2_chooser>
+<noun_type min="" max="">Geographical Feature</noun_type>
+<noun_type min="" max="">Weather</noun_type>
+<noun_type min="" max="">Celestial Object</noun_type>
+<noun_type min="" max="">Body Part</noun_type>
+<noun_type min="" max="">Weapon</noun_type>
+</noun_2_chooser>
+
+<type_chooser>
+<type min="01" max="10">Path</type>
+<type min="11" max="20">Form</type>
+<type min="21" max="35">School</type>
+<type min="36" max="50">Art</type>
+<type min="51" max="65">Way</type>
+<type min="66" max="80">Style</type>
+<type min="81" max="90">Technique</type>
+<type min="91" max="100">Method</type>
+</type_chooser>
+
+<general_adjective_list>
+<adjective min="1"max="1">Anagogic</adjective>
+<adjective min="2"max="2">Ancient</adjective>
+<adjective min="3"max="3">Arcane</adjective>
+<adjective min="4"max="4">Battling</adjective>
+<adjective min="5"max="5">Beautiful</adjective>
+<adjective min="6"max="6">Billowing</adjective>
+<adjective min="7"max="7">Blazing</adjective>
+<adjective min="8"max="8">Blessed</adjective>
+<adjective min="9"max="9">Bounding</adjective>
+<adjective min="10"max="10">Bright</adjective>
+<adjective min="11"max="11">Brilliant</adjective>
+<adjective min="12"max="12">Cabalistic</adjective>
+<adjective min="13"max="13">Celestial</adjective>
+<adjective min="14"max="14">Complicated</adjective>
+<adjective min="15"max="15">Cruel</adjective>
+<adjective min="16"max="16">Dark</adjective>
+<adjective min="17"max="17">Darkling</adjective>
+<adjective min="18"max="18">Deadly</adjective>
+<adjective min="19"max="19">Defensive</adjective>
+<adjective min="20"max="20">Destructive</adjective>
+<adjective min="21"max="21">Divine</adjective>
+<adjective min="22"max="22">Drunken</adjective>
+<adjective min="23"max="23">Dueling</adjective>
+<adjective min="24"max="24">Dull</adjective>
+<adjective min="25"max="25">Dusky</adjective>
+<adjective min="26"max="26">Eastern</adjective>
+<adjective min="27"max="27">Enlightened</adjective>
+<adjective min="28"max="28">Esoteric</adjective>
+<adjective min="29"max="29">Eternal</adjective>
+<adjective min="30"max="30">Extraordinary</adjective>
+<adjective min="31"max="31">Extreme</adjective>
+<adjective min="32"max="32">Feared</adjective>
+<adjective min="33"max="33">Fierce</adjective>
+<adjective min="34"max="34">Fighting</adjective>
+<adjective min="35"max="35">Flying</adjective>
+<adjective min="36"max="36">Furious</adjective>
+<adjective min="37"max="37">Gloomy</adjective>
+<adjective min="38"max="38">Glowing</adjective>
+<adjective min="39"max="39">Grand</adjective>
+<adjective min="40"max="40">Great</adjective>
+<adjective min="41"max="41">Guarding</adjective>
+<adjective min="42"max="42">Harmonious</adjective>
+<adjective min="43"max="43">Hateful</adjective>
+<adjective min="44"max="44">Hidden</adjective>
+<adjective min="45"max="45">Holy</adjective>
+<adjective min="46"max="46">Honorable</adjective>
+<adjective min="47"max="47">Hunting</adjective>
+<adjective min="48"max="48">Illuminated</adjective>
+<adjective min="49"max="49">Imperial</adjective>
+<adjective min="50"max="50">Intricate</adjective>
+<adjective min="51"max="51">Jumping</adjective>
+<adjective min="52"max="52">Knightly</adjective>
+<adjective min="53"max="53">Leaping</adjective>
+<adjective min="54"max="54">Legendary</adjective>
+<adjective min="55"max="55">Light</adjective>
+<adjective min="56"max="56">Lighted</adjective>
+<adjective min="57"max="57">Lightless</adjective>
+<adjective min="58"max="58">Lone</adjective>
+<adjective min="59"max="59">Luminous</adjective>
+<adjective min="60"max="60">Masterful</adjective>
+<adjective min="61"max="61">Murky</adjective>
+<adjective min="62"max="62">Mysterious</adjective>
+<adjective min="63"max="63">Mystic</adjective>
+<adjective min="64"max="64">Mystical</adjective>
+<adjective min="65"max="65">Noble</adjective>
+<adjective min="66"max="66">Northern</adjective>
+<adjective min="67"max="67">Obscure</adjective>
+<adjective min="68"max="68">Occult</adjective>
+<adjective min="69"max="69">Offensive</adjective>
+<adjective min="70"max="70">Paranormal</adjective>
+<adjective min="71"max="71">Poor</adjective>
+<adjective min="72"max="72">Protecting</adjective>
+<adjective min="73"max="73">Quarreling</adjective>
+<adjective min="74"max="74">Quick</adjective>
+<adjective min="75"max="75">Radiant</adjective>
+<adjective min="76"max="76">Raging</adjective>
+<adjective min="77"max="77">Respected</adjective>
+<adjective min="78"max="78">Running</adjective>
+<adjective min="79"max="79">Shadowy</adjective>
+<adjective min="80"max="80">Shady</adjective>
+<adjective min="81"max="81">Shielding</adjective>
+<adjective min="82"max="82">Shining</adjective>
+<adjective min="83"max="83">Single</adjective>
+<adjective min="84"max="84">Soaring</adjective>
+<adjective min="85"max="85">Southern</adjective>
+<adjective min="86"max="86">Spinning</adjective>
+<adjective min="87"max="87">Spiraling</adjective>
+<adjective min="88"max="88">Springing</adjective>
+<adjective min="89"max="89">Striving</adjective>
+<adjective min="90"max="90">Strong</adjective>
+<adjective min="91"max="91">Supernatural</adjective>
+<adjective min="92"max="92">Trampling</adjective>
+<adjective min="93"max="93">Uncanny</adjective>
+<adjective min="94"max="94">Unearthly</adjective>
+<adjective min="95"max="95">Unknowable</adjective>
+<adjective min="96"max="96">Unnatural</adjective>
+<adjective min="97"max="97">Virtuous</adjective>
+<adjective min="98"max="98">Warring</adjective>
+<adjective min="99"max="99">Western</adjective>
+<adjective min="100"max="100">Whirling</adjective>
+</general_adjective_list>
+
+<colour_list>
+<colour min="1"max="3">Light Orange</colour>
+<colour min="6"max="9">Light Yellow</colour>
+<colour min="10"max="12">Light Brown</colour>
+<colour min="13"max="15">Light Red</colour>
+<colour min="16"max="18">Light Grey</colour>
+<colour min="19"max="21">Light Green</colour>
+<colour min="22"max="24">Light Purple</colour>
+<colour min="25"max="27">Light Blue</colour>
+<colour min="28"max="29">Tan</colour>
+<colour min="30"max="31">Pink</colour>
+<colour min="32"max="35">Orange</colour>
+<colour min="36"max="39">White</colour>
+<colour min="40"max="43">Yellow</colour>
+<colour min="44"max="47">Red</colour>
+<colour min="48"max="51">Purple</colour>
+<colour min="52"max="55">Green</colour>
+<colour min="53"max="59">Brown</colour>
+<colour min="60"max="63">Blue</colour>
+<colour min="64"max="67">Black</colour>
+<colour min="68"max="70">Grey</colour>
+<colour min="71"max="72">Golden</colour>
+<colour min="73"max="74">Silver</colour>
+<colour min="75"max="79">Dark Orange</colour>
+<colour min="80"max="82">Dark Blue</colour>
+<colour min="83"max="85">Dark Purple</colour>
+<colour min="86"max="88">Dark Grey</colour>
+<colour min="89"max="91">Dark Green</colour>
+<colour min="92"max="94">Dark Brown</colour>
+<colour min="95"max="97">Dark Red</colour>
+<colour min="98"max="10">Dark Yellow</colour>
+</colour_list>
+
+<number_list>
+<number min="1"max="5">One</number>
+<number min="6"max="10">Two</number>
+<number min="11"max="15">Three</number>
+<number min="16"max="20">Four</number>
+<number min="21"max="25">Five</number>
+<number min="26"max="30">Six</number>
+<number min="31"max="35">Seven</number>
+<number min="36"max="40">Eight</number>
+<number min="41"max="45">Nine</number>
+<number min="46"max="50">Ten</number>
+<number min="51"max="55">Twelve</number>
+<number min="56"max="60">Eighteen</number>
+<number min="61"max="65">Twenty Four</number>
+<number min="66"max="70">Sixty</number>
+<number min="71"max="75">Sixty Nine</number>
+<number min="76"max="80">One Hundred</number>
+<number min="81"max="85">One Hundred and</number>
+<number min="86"max="90">One Hundred and</number>
+<number min="91"max="95">One Thousand</number>
+<number min="96"max="100">Ten Thousand</number>
+</number_list>
+
+<animal_list>
+<animal min="1"max="1">Insects</animal>
+<animal min="2"max="2">Alligator/Crocodile</animal>
+<animal min="3"max="3">Ape</animal>
+<animal min="4"max="4">Armadillo</animal>
+<animal min="5"max="5">Baboon</animal>
+<animal min="6"max="6">Badger</animal>
+<animal min="7"max="7">Bat</animal>
+<animal min="8"max="8">Bear</animal>
+<animal min="9"max="9">Beaver</animal>
+<animal min="10"max="10">Blue-Jay</animal>
+<animal min="11"max="11">Bobcat</animal>
+<animal min="12"max="12">Buffalo</animal>
+<animal min="13"max="13">Buzzard</animal>
+<animal min="14"max="14">Carp</animal>
+<animal min="15"max="15">Cat</animal>
+<animal min="16"max="16">Cheetah</animal>
+<animal min="17"max="17">Chimpanzee</animal>
+<animal min="18"max="18">Cobra</animal>
+<animal min="19"max="19">Condor</animal>
+<animal min="20"max="20">Cow/Bull</animal>
+<animal min="21"max="21">Coyote/Jackal</animal>
+<animal min="22"max="22">Crab</animal>
+<animal min="23"max="23">Crane</animal>
+<animal min="24"max="24">Crawfish/Crayfish</animal>
+<animal min="25"max="25">Deer</animal>
+<animal min="26"max="26">Dog</animal>
+<animal min="27"max="27">Dolphin/Porpoise</animal>
+<animal min="28"max="28">Dove</animal>
+<animal min="29"max="29">Duck</animal>
+<animal min="30"max="30">Eagle</animal>
+<animal min="31"max="31">Eel</animal>
+<animal min="32"max="32">Egret</animal>
+<animal min="33"max="33">Elephant</animal>
+<animal min="34"max="34">Falcon</animal>
+<animal min="35"max="35">Ferret</animal>
+<animal min="36"max="36">Fox</animal>
+<animal min="37"max="37">Frog</animal>
+<animal min="38"max="38">Giraffe</animal>
+<animal min="39"max="39">Goat</animal>
+<animal min="40"max="40">Hawk</animal>
+<animal min="41"max="41">Hedgehog</animal>
+<animal min="42"max="42">Hippopotamus</animal>
+<animal min="43"max="43">Horse</animal>
+<animal min="44"max="44">Hummingbird</animal>
+<animal min="45"max="45">Jaguar</animal>
+<animal min="46"max="46">Kangaroo</animal>
+<animal min="47"max="47">Koala</animal>
+<animal min="48"max="48">Leopard</animal>
+<animal min="49"max="49">Lion</animal>
+<animal min="50"max="50">Lizard</animal>
+<animal min="51"max="51">Lobster</animal>
+<animal min="52"max="52">Manta</animal>
+<animal min="53"max="53">Mole</animal>
+<animal min="54"max="54">Monkey</animal>
+<animal min="55"max="55">Moose</animal>
+<animal min="56"max="56">Mouse</animal>
+<animal min="57"max="57">Octopus</animal>
+<animal min="58"max="58">Opossum</animal>
+<animal min="59"max="59">Otter</animal>
+<animal min="60"max="60">Owl</animal>
+<animal min="61"max="61">Ox</animal>
+<animal min="62"max="62">Panther</animal>
+<animal min="63"max="63">Peacock</animal>
+<animal min="64"max="64">Pheasant</animal>
+<animal min="65"max="65">Pig/Wild Boar/Hog/Warthog</animal>
+<animal min="66"max="66">Pigeon</animal>
+<animal min="67"max="67">Porcupine</animal>
+<animal min="68"max="68">Puma/Mountain Lion</animal>
+<animal min="69"max="69">Python</animal>
+<animal min="70"max="70">Quail</animal>
+<animal min="71"max="71">Rabbit/Bunny/Hare</animal>
+<animal min="72"max="72">Racoon</animal>
+<animal min="73"max="73">Rat</animal>
+<animal min="74"max="74">Rattlesnake</animal>
+<animal min="75"max="75">Raven/Crow/Rook/Corbie</animal>
+<animal min="76"max="76">Rhinoceros</animal>
+<animal min="77"max="77">Rooster/Chicken</animal>
+<animal min="78"max="78">Salamander</animal>
+<animal min="79"max="79">Seagull</animal>
+<animal min="80"max="80">Seal</animal>
+<animal min="81"max="81">Shark</animal>
+<animal min="82"max="82">Sheep</animal>
+<animal min="83"max="83">Snake/Serpent</animal>
+<animal min="84"max="84">Sparrow</animal>
+<animal min="85"max="85">Squid</animal>
+<animal min="86"max="86">Squirrel</animal>
+<animal min="87"max="87">Stingray</animal>
+<animal min="88"max="88">Swallow</animal>
+<animal min="89"max="89">Tiger</animal>
+<animal min="90"max="90">Toad</animal>
+<animal min="91"max="91">Tortoise/Turtle</animal>
+<animal min="92"max="92">Turkey</animal>
+<animal min="93"max="93">Vulture</animal>
+<animal min="94"max="94">Weasel</animal>
+<animal min="95"max="95">Whale</animal>
+<animal min="96"max="96">Wild Goose</animal>
+<animal min="97"max="97">Wolf</animal>
+<animal min="98"max="98">Wolverine</animal>
+<animal min="99"max="99">Zebra</animal>
+<animal min="100"max="100">Mythological Creatures</animal>
+</animal_list>
+
+<insect_list>
+<insect min="1"max="5">Ant</insect>
+<insect min="6"max="10">Bee</insect>
+<insect min="11"max="15">Beetle</insect>
+<insect min="16"max="20">Butterfly</insect>
+<insect min="21"max="25">Cockroach</insect>
+<insect min="26"max="30">Gnat</insect>
+<insect min="31"max="35">Grasshopper/Locust</insect>
+<insect min="36"max="40">Fly</insect>
+<insect min="41"max="45">Hornet</insect>
+<insect min="46"max="50">Mantis</insect>
+<insect min="51"max="55">Mosquito</insect>
+<insect min="56"max="60">Scorpion</insect>
+<insect min="61"max="65">Snail</insect>
+<insect min="66"max="70">Spider</insect>
+<insect min="71"max="75">Wasp</insect>
+<insect min="76"max="80">Worm</insect>
+<insect min="81"max="85">Dragonfly</insect>
+<insect min="86"max="90">Centipede</insect>
+<insect min="91"max="95">Leech</insect>
+<insect min="96"max="100">Caterpillar</insect>
+</insect_list>
+
+
+
+<myth_animal_list>
+<myth_animal min="01" max="25">Roc</myth_animal>
+<myth_animal min="26" max="50">Dragon</myth_animal>
+<myth_animal min="51" max="75">Phoenix</myth_animal>
+<myth_animal min="76" max="80">Unicorn</myth_animal>
+<myth_animal min="81" max="86">Ki-lin</myth_animal>
+<myth_animal min="91" max="95">Qi Lin</myth_animal>
+<myth_animal min="96" max="100">Kirin</myth_animal>
+</myth_animal_list>
+
+<mineral_list>
+<mineral min="1"max="5">Steel</mineral>
+<mineral min="6"max="10">Gold</mineral>
+<mineral min="11"max="15">Silver</mineral>
+<mineral min="16"max="20">Mercury</mineral>
+<mineral min="21"max="25">Copper</mineral>
+<mineral min="26"max="30">Brass</mineral>
+<mineral min="31"max="35">Platinum</mineral>
+<mineral min="36"max="40">Palladium</mineral>
+<mineral min="41"max="45">Marble</mineral>
+<mineral min="46"max="50">Granite</mineral>
+<mineral min="51"max="55">Obsidian</mineral>
+<mineral min="56"max="60">Diamond</mineral>
+<mineral min="61"max="65">Ruby</mineral>
+<mineral min="66"max="70">Emerald</mineral>
+<mineral min="71"max="75">Pearl</mineral>
+<mineral min="76"max="80">Sapphire</mineral>
+<mineral min="81"max="85">Opal</mineral>
+<mineral min="86"max="90">Jade</mineral>
+<mineral min="91"max="95">Lead</mineral>
+<mineral min="96"max="100">Sulphur</mineral>
+</mineral_list>
+
+<vegetable_list>
+<vegetable min="1"max="2">Apple</vegetable>
+<vegetable min="3"max="4">Apricot</vegetable>
+<vegetable min="5"max="6">Ash</vegetable>
+<vegetable min="7"max="8">Bamboo</vegetable>
+<vegetable min="9"max="10">Banana</vegetable>
+<vegetable min="11"max="12">Barley</vegetable>
+<vegetable min="13"max="14">Bean</vegetable>
+<vegetable min="15"max="16">Beet</vegetable>
+<vegetable min="17"max="18">Berry</vegetable>
+<vegetable min="19"max="20">Birch</vegetable>
+<vegetable min="21"max="22">Cabbage</vegetable>
+<vegetable min="23"max="24">Carrot</vegetable>
+<vegetable min="25"max="26">Cedar</vegetable>
+<vegetable min="27"max="28">Cherry</vegetable>
+<vegetable min="29"max="30">Chestnut</vegetable>
+<vegetable min="31"max="32">Chrysanthemum</vegetable>
+<vegetable min="33"max="34">Date</vegetable>
+<vegetable min="35"max="36">Flower</vegetable>
+<vegetable min="37"max="38">Fruit</vegetable>
+<vegetable min="39"max="40">Garlic</vegetable>
+<vegetable min="41" max="42">Grass</vegetable>
+<vegetable min="43" max="44">Hemp</vegetable>
+<vegetable min="45" max="46">Holly</vegetable>
+<vegetable min="47" max="48">Ivy</vegetable>
+<vegetable min="49" max="50">Leaf</vegetable>
+<vegetable min="51" max="52">Maple</vegetable>
+<vegetable min="53" max="54">Mushroom</vegetable>
+<vegetable min="55" max="56">Nightshade</vegetable>
+<vegetable min="57" max="58">Nut</vegetable>
+<vegetable min="59" max="60">Oak</vegetable>
+<vegetable min="61" max="62">Onion</vegetable>
+<vegetable min="63" max="64">Orange</vegetable>
+<vegetable min="65" max="66">Palm Tree</vegetable>
+<vegetable min="67" max="68">Peach</vegetable>
+<vegetable min="69" max="70">Pear</vegetable>
+<vegetable min="71" max="72">Pine</vegetable>
+<vegetable min="73" max="74">Plum</vegetable>
+<vegetable min="75" max="76">Poplar</vegetable>
+<vegetable min="77" max="78">Potato</vegetable>
+<vegetable min="79" max="80">Pumpkin</vegetable>
+<vegetable min="81" max="82">Radish</vegetable>
+<vegetable min="83" max="84">Rice</vegetable>
+<vegetable min="85" max="86">Sugar</vegetable>
+<vegetable min="87" max="88">Turnip</vegetable>
+<vegetable min="89" max="90">Vegetable</vegetable>
+<vegetable min="91" max="92">Walnut</vegetable>
+<vegetable min="93" max="94">Watermelon</vegetable>
+<vegetable min="95" max="96">Wheat</vegetable>
+<vegetable min="97" max="98">Willow</vegetable>
+<vegetable min="99" max="100">Yew</vegetable>
+</vegetable_list>
+
+<geographic_feature_list>
+<geographical_feature min="1"max="2">Atoll</geographical_feature>
+<geographical_feature min="3"max="4">Barren</geographical_feature>
+<geographical_feature min="5"max="6">Bay</geographical_feature>
+<geographical_feature min="7"max="8">Beach</geographical_feature>
+<geographical_feature min="9"max="10">Bog</geographical_feature>
+<geographical_feature min="11"max="12">Canyon</geographical_feature>
+<geographical_feature min="13"max="14">Cave/Cavern</geographical_feature>
+<geographical_feature min="15"max="16">Cliff</geographical_feature>
+<geographical_feature min="17"max="18">Crag</geographical_feature>
+<geographical_feature min="19"max="20">Crater</geographical_feature>
+<geographical_feature min="21"max="22">Desert</geographical_feature>
+<geographical_feature min="23"max="24">Dune</geographical_feature>
+<geographical_feature min="25"max="26">Field</geographical_feature>
+<geographical_feature min="27"max="28">Ford</geographical_feature>
+<geographical_feature min="29"max="30">Forest, rain</geographical_feature>
+<geographical_feature min="31"max="32">Forest</geographical_feature>
+<geographical_feature min="33"max="34">Garden</geographical_feature>
+<geographical_feature min="35"max="36">Glacier</geographical_feature>
+<geographical_feature min="37"max="38">Hill</geographical_feature>
+<geographical_feature min="39"max="40">Hot Spring</geographical_feature>
+<geographical_feature min="41"max="42">Ice field</geographical_feature>
+<geographical_feature min="43"max="44">Island</geographical_feature>
+<geographical_feature min="45"max="46">Jungle</geographical_feature>
+<geographical_feature min="47"max="48">Lagoon</geographical_feature>
+<geographical_feature min="49"max="50">Lake</geographical_feature>
+<geographical_feature min="51"max="52">Marsh</geographical_feature>
+<geographical_feature min="53"max="54">Moor</geographical_feature>
+<geographical_feature min="55"max="56">Mountain</geographical_feature>
+<geographical_feature min="57"max="58">Oasis</geographical_feature>
+<geographical_feature min="59"max="60">Ocean</geographical_feature>
+<geographical_feature min="61"max="62">Orchard</geographical_feature>
+<geographical_feature min="63"max="64">Pass</geographical_feature>
+<geographical_feature min="65"max="66">Path</geographical_feature>
+<geographical_feature min="67"max="68">Peak</geographical_feature>
+<geographical_feature min="69"max="70">Plain</geographical_feature>
+<geographical_feature min="71"max="72">Plateau</geographical_feature>
+<geographical_feature min="73"max="74">Reef</geographical_feature>
+<geographical_feature min="75"max="76">River</geographical_feature>
+<geographical_feature min="77"max="78">Savanna</geographical_feature>
+<geographical_feature min="79"max="80">Scrub</geographical_feature>
+<geographical_feature min="81"max="82">Sea</geographical_feature>
+<geographical_feature min="83"max="84">Steppe</geographical_feature>
+<geographical_feature min="85"max="86">Stream</geographical_feature>
+<geographical_feature min="87"max="88">Swamp</geographical_feature>
+<geographical_feature min="89"max="90">Tundra</geographical_feature>
+<geographical_feature min="91"max="92">Vale</geographical_feature>
+<geographical_feature min="93"max="94">Valley</geographical_feature>
+<geographical_feature min="95"max="96">Volcano</geographical_feature>
+<geographical_feature min="97"max="98">Waterfall</geographical_feature>
+<geographical_feature min="99"max="100">Woods</geographical_feature>
+</geographic_feature_list>
+
+<weather_list>
+<weather min="1"max="5">Breeze</weather>
+<weather min="6"max="10">Frost</weather>
+<weather min="11"max="15">Drought</weather>
+<weather min="16"max="20">Duststorm</weather>
+<weather min="21"max="25">Fire/Flame</weather>
+<weather min="26"max="30">Fog</weather>
+<weather min="31"max="35">Hail</weather>
+<weather min="36"max="40">Hurricane</weather>
+<weather min="41"max="45">Lightning</weather>
+<weather min="46"max="50">Rain</weather>
+<weather min="51"max="55">Sleet</weather>
+<weather min="56"max="60">Snow</weather>
+<weather min="61"max="65">Storm</weather>
+<weather min="66"max="70">Thunder</weather>
+<weather min="71"max="75">Tornado</weather>
+<weather min="76"max="80">Tsunami</weather>
+<weather min="81"max="85">Typhoon</weather>
+<weather min="86"max="90">Wave</weather>
+<weather min="91"max="95">Whirlwind</weather>
+<weather min="96"max="100">Wind</weather>
+</weather_list>
+
+<celestial_object_list>
+<celestial_object min="" max="">Comet</celestial_object>
+<celestial_object min="" max="">Constellation</celestial_object>
+<celestial_object min="" max="">Earth</celestial_object>
+<celestial_object min="" max="">Heavens</celestial_object>
+<celestial_object min="" max="">Meteor</celestial_object>
+<celestial_object min="" max="">Moon</celestial_object>
+<celestial_object min="" max="">Stars</celestial_object>
+<celestial_object min="" max="">Planets</celestial_object>
+<celestial_object min="" max="">Sun</celestial_object>
+<celestial_object min="" max="">Zodiac</celestial_object>
+</celestial_object_list>
+
+<body_part_list>
+<body_part min="1"max="5">Arm</body_part>
+<body_part min="6"max="10">Back</body_part>
+<body_part min="11"max="15">Body</body_part>
+<body_part min="16"max="20">Ear</body_part>
+<body_part min="21"max="25">Elbow</body_part>
+<body_part min="26"max="30">Eye</body_part>
+<body_part min="31"max="35">Face</body_part>
+<body_part min="36"max="40">Fist</body_part>
+<body_part min="41"max="45">Foot</body_part>
+<body_part min="46"max="50">Hand</body_part>
+<body_part min="51"max="55">Head</body_part>
+<body_part min="56"max="60">Knee</body_part>
+<body_part min="61"max="65">Leg</body_part>
+<body_part min="66"max="70">Mouth</body_part>
+<body_part min="71"max="75">Neck</body_part>
+<body_part min="76"max="80">Nose</body_part>
+<body_part min="81"max="85">Shoulder</body_part>
+<body_part min="86"max="90">Stomach</body_part>
+<body_part min="91"max="95">Thigh</body_part>
+<body_part min="96"max="100">Torso</body_part>
+</body_part_list>
+
+<weapon_list>
+<weapon min="1"max="5">Axe</weapon>
+<weapon min="6"max="10">Bow</weapon>
+<weapon min="11"max="15">Chain</weapon>
+<weapon min="16"max="20">Club</weapon>
+<weapon min="21"max="25">Crossbow</weapon>
+<weapon min="26"max="30">Dagger</weapon>
+<weapon min="31"max="35">Dart</weapon>
+<weapon min="36"max="40">Flail</weapon>
+<weapon min="41"max="45">Hammer</weapon>
+<weapon min="46"max="50">Knife</weapon>
+<weapon min="51"max="55">Lance</weapon>
+<weapon min="56"max="60">Lasso/Snare/Rope</weapon>
+<weapon min="61"max="65">Mace</weapon>
+<weapon min="66"max="70">Pick</weapon>
+<weapon min="71"max="75">Scythe</weapon>
+<weapon min="76"max="80">Sickle</weapon>
+<weapon min="81"max="85">Spear</weapon>
+<weapon min="86"max="90">Staff</weapon>
+<weapon min="91"max="95">Sword</weapon>
+<weapon min="96"max="100">Whip</weapon>
+</weapon_list>
+
+
